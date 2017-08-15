@@ -25,6 +25,7 @@
         android:layout_below="@+id/lbWelcome"
         android:layout_marginLeft="20dp"
         android:onClick="onDisplay"
+
         />
 
     <Button
@@ -36,6 +37,8 @@
         android:layout_below="@+id/lbWelcome"
         android:layout_toRightOf="@+id/btop1"
         android:layout_marginLeft="10dp"
+        android:onClick="onButton"
+
         />
     <Button
         android:id="@+id/btop3"

@@ -18,6 +18,13 @@ public class MainActivity extends AppCompatActivity {
     public void onDisplay(View v){
 
         findViewById(R.id.btop1);
-        Toast.makeText(MainActivity.this, "Utilize a Outra Opção", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Utilize a Outra Opção", Toast.LENGTH_LONG).show();
     }
+
+    public void onButton(View v){
+
+        findViewById(R.id.btop1);
+        Toast.makeText(MainActivity.this, "Seja Bem Vindo(a)!", Toast.LENGTH_LONG).show();
+    }
+
 }
